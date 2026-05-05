@@ -12,6 +12,10 @@ public class Livro {
         this.valorMulta = valorMulta;
     }
 
+    public String getLivro(){
+        return titulo + " " + autor + " " + valorMulta;
+    }
+
     public String getTitulo() {
         return titulo;
     }

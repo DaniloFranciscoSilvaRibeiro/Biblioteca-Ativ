@@ -10,6 +10,10 @@ public class Usuario {
         this.email = email;
     }
 
+    public String getUsuario(){
+        return nome + " " + email;
+    }
+
     public String getNome() {
         return nome;
     }
